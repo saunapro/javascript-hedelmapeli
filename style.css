@@ -1,0 +1,36 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(tausta/kuva.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}
+
+.otsikko {
+    color: orange;
+}
+
+.panosstyle {
+    color: orange;
+}
+
+.kuvat {
+    display: flex;
+    justify-content: center;
+}
+
+.kuvat>section {
+    display: flex;
+}
+
+.kuvat>section>div {
+    flex: 1;
+}
+.rahaastyle{
+    color:orange;
+}
